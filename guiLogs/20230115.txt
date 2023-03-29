@@ -1,0 +1,13 @@
+--------------------------------CurrentDomain_UnhandledException[20:32:28]--------------------------------
+System.ComponentModel.Win32Exception (0x80004005): 仅完成部分的 ReadProcessMemory 或 WriteProcessMemory 请求。
+   在 System.Diagnostics.NtProcessManager.GetModuleInfos(Int32 processId, Boolean firstModuleOnly)
+   在 System.Diagnostics.NtProcessManager.GetFirstModuleInfo(Int32 processId)
+   在 System.Diagnostics.Process.get_MainModule()
+   在 v2rayN.Program.RunningInstance()
+   在 v2rayN.Program.Main()
+
+ 
+--------------------------------info[21:44:34]--------------------------------
+System.Exception: v2rayN start up v2rayN - V3.5 - 2021/06/15
+
+ 

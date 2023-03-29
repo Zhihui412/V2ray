@@ -1,0 +1,120 @@
+{
+  "inbound": [
+    {
+      "localPort": 10808,
+      "protocol": "socks",
+      "udpEnabled": true,
+      "sniffingEnabled": true
+    }
+  ],
+  "logEnabled": false,
+  "loglevel": "warning",
+  "index": 3,
+  "vmess": [
+    {
+      "configVersion": 2,
+      "address": "64.64.230.44",
+      "port": 56598,
+      "id": "63336cdd-e15a-428a-dac0-6775214d437b",
+      "alterId": 64,
+      "security": "auto",
+      "network": "ws",
+      "remarks": "d60_w10i",
+      "headerType": "none",
+      "requestHost": "",
+      "path": "/",
+      "streamSecurity": "tls",
+      "allowInsecure": "",
+      "configType": 1,
+      "testResult": "",
+      "subid": ""
+    },
+    {
+      "configVersion": 2,
+      "address": "64.64.230.44",
+      "port": 56599,
+      "id": "63336cdd-e15a-428a-dac0-6775214d437b",
+      "alterId": 64,
+      "security": "auto",
+      "network": "ws",
+      "remarks": "d60_w10i",
+      "headerType": "none",
+      "requestHost": "",
+      "path": "/",
+      "streamSecurity": "tls",
+      "allowInsecure": "",
+      "configType": 1,
+      "testResult": "",
+      "subid": ""
+    },
+    {
+      "configVersion": 2,
+      "address": "d109.congl.in",
+      "port": 15751,
+      "id": "5d931897-65e3-46ee-eb28-077dbdc48d32",
+      "alterId": 64,
+      "security": "auto",
+      "network": "ws",
+      "remarks": "d109_w52",
+      "headerType": "none",
+      "requestHost": "",
+      "path": "/",
+      "streamSecurity": "tls",
+      "allowInsecure": "true",
+      "configType": 1,
+      "testResult": "",
+      "subid": ""
+    },
+    {
+      "configVersion": 2,
+      "address": "64.64.230.44",
+      "port": 56599,
+      "id": "63336cdd-e15a-428a-dac0-6775214d437b",
+      "alterId": 64,
+      "security": "auto",
+      "network": "ws",
+      "remarks": "d60_w10i",
+      "headerType": "none",
+      "requestHost": "",
+      "path": "/",
+      "streamSecurity": "tls",
+      "allowInsecure": "",
+      "configType": 1,
+      "testResult": "",
+      "subid": ""
+    }
+  ],
+  "muxEnabled": true,
+  "domainStrategy": "IPIfNonMatch",
+  "routingMode": "0",
+  "useragent": [],
+  "userdirect": [],
+  "userblock": [],
+  "kcpItem": {
+    "mtu": 1350,
+    "tti": 50,
+    "uplinkCapacity": 12,
+    "downlinkCapacity": 100,
+    "congestion": false,
+    "readBufferSize": 2,
+    "writeBufferSize": 2
+  },
+  "listenerType": 0,
+  "urlGFWList": "https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt",
+  "allowLANConn": false,
+  "enableStatistics": false,
+  "statisticsFreshRate": 2000,
+  "remoteDNS": null,
+  "subItem": [
+    {
+      "id": "8e3c55aa-823f-47f0-869d-0ae9c29d116b",
+      "remarks": "import sub",
+      "url": "https://m.imooc.com/groupdetail/1198/7Dg8m5YZ10EPWa4B/ZakxNyDXbk6Ggb72?utm_source=share",
+      "enabled": true
+    }
+  ],
+  "uiItem": {
+    "mainQRCodeWidth": 600
+  },
+  "userPacRule": []
+}
